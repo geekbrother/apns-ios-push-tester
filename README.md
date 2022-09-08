@@ -1,7 +1,12 @@
 # apns-ios-push-tester
 Simple Swift iOS application (XCode project) to get APNs push messages from backends for testing, debug and development purposes.
 
-# How to use:
+## Features:
+ - Requesting Push notification access on device;
+ - Logs APNs device token;
+ - Logs messages on receive.
+
+## How to use:
 0. Open the porject in XCode.
 1. Go to the project's `Signing & Capabilities`, choose your Team (or create one).
 2. Click on the `+` and add `Push notifications` capabilities.
